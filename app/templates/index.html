@@ -1,0 +1,14 @@
+{% extends 'base.html'%}
+{% block content %}
+    <head>
+        <meta charset="utf-8">
+        {% if title %}
+        <title> {{ title }}</title>
+        {% else %}
+        <title> Home: Ace Pizza </title>
+        {% endif %}
+    </head>
+    <body>
+        <h1> {{ message }} </h1>
+    </body>
+    {% endblock%}
