@@ -1,0 +1,10 @@
+Hello subscriber!
+
+A new blog has been posted, you might want to check it out
+
+Title: {{blog.title}}
+Post: {{blog.content|truncate(30)}}
+
+Regards,
+
+BlogPost
